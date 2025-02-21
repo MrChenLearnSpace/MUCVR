@@ -1,5 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!54 &623872922
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847569276233891763}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &623872924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847569276233891763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07713497, y: 0.20008063, z: 0.20848072}
+  m_Center: {x: -0.023597002, y: -0.017245173, z: -0.09980494}
 --- !u!1 &4741426798750340111
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +598,35 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   broadcastDeviceChanges: 1
+--- !u!54 &320518895
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335797236973958290}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &320518897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335797236973958290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08107345, y: 0.18976963, z: 0.21763378}
+  m_Center: {x: 0.022451334, y: -0.018915832, z: -0.10161957}
 --- !u!1001 &846859548988615569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -578,7 +636,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000013348574242, guid: 638779290bce1af49b356f33dcc6fccf, type: 3}
       propertyPath: m_Name
-      value: vr_glove_left_model_slim
+      value: left_hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013348574242, guid: 638779290bce1af49b356f33dcc6fccf, type: 3}
+      propertyPath: m_TagString
+      value: Hand
       objectReference: {fileID: 0}
     - target: {fileID: 4000013303659494, guid: 638779290bce1af49b356f33dcc6fccf, type: 3}
       propertyPath: m_RootOrder
@@ -637,6 +699,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 846859548988615569}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &847569276233891763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013348574242, guid: 638779290bce1af49b356f33dcc6fccf,
+    type: 3}
+  m_PrefabInstance: {fileID: 846859548988615569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6336225500896934584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -646,7 +714,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000010304998954, guid: 6def53d002137b747aec0b29551e0e25, type: 3}
       propertyPath: m_Name
-      value: vr_glove_right_model_slim
+      value: right_hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010304998954, guid: 6def53d002137b747aec0b29551e0e25, type: 3}
+      propertyPath: m_TagString
+      value: Hand
       objectReference: {fileID: 0}
     - target: {fileID: 4000012125075130, guid: 6def53d002137b747aec0b29551e0e25, type: 3}
       propertyPath: m_RootOrder
@@ -702,6 +774,12 @@ PrefabInstance:
 --- !u!4 &6332340870929730562 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000012125075130, guid: 6def53d002137b747aec0b29551e0e25,
+    type: 3}
+  m_PrefabInstance: {fileID: 6336225500896934584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6335797236973958290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010304998954, guid: 6def53d002137b747aec0b29551e0e25,
     type: 3}
   m_PrefabInstance: {fileID: 6336225500896934584}
   m_PrefabAsset: {fileID: 0}
