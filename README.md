@@ -1,5 +1,9 @@
 # MUCVR
 
+[![状态](https://img.shields.io/badge/status-活跃-brightgreen)](https://github.com/MrChenLearnSpace/MUCVR)
+[![语言](https://img.shields.io/badge/language-中英双语-blue)](https://github.com/MrChenLearnSpace/MUCVR)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ## 文件目录
 
 ```text
