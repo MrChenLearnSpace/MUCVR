@@ -1,8 +1,12 @@
 # MUCVR
 
 [![状态](https://img.shields.io/badge/status-活跃-brightgreen)](https://github.com/MrChenLearnSpace/MUCVR)
-[![语言](https://img.shields.io/badge/language-待填-blue)](https://github.com/MrChenLearnSpace/MUCVR)
+[![语言](https://img.shields.io/badge/language-中英双语-blue)](https://github.com/MrChenLearnSpace/MUCVR)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+---
+
+## 中文版
 
 > 在此写一行简短说明：MUCVR 是一个...（例如：多用户协作的虚拟现实平台 / 多模态计算机视觉研究仓库）。请替换此处为项目的一句话描述。
 
@@ -31,7 +35,6 @@
 - 特性 1：简述（例如：支持 N 人同时进入同一场景）
 - 特性 2：简述（例如：内置多模态感知模块）
 - 特性 3：简述（例如：可扩展的插件系统）
-- 可根据实际功能补充更多点
 
 ## 演示
 （在此处放置 GIF、图片或 demo 链接）
@@ -56,7 +59,7 @@ cd MUCVR
 # 可选：创建虚拟环境
 python -m venv .venv
 source .venv/bin/activate  # Linux / macOS
-# .venv\Scripts\activate    # Windows
+# .venv\\Scripts\\activate    # Windows
 
 # 安装依赖
 pip install -r requirements.txt
@@ -100,11 +103,121 @@ MUCVR/
 - 问：如何在多机环境运行？  
   答：简述如何配置分布式运行或提供参考链接。
 
-（可根据实际问题补充）
-
 ## 许可证
 本项目采用 MIT 许可证 — 详见 [LICENSE](LICENSE)。
 
 ## 作者与联系方式
 - 维护者：MrChenLearnSpace
 - 联系方式：在此填入邮箱 / GitHub Issues / 微信二维码等
+
+---
+
+## English Version
+
+# MUCVR
+
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/MrChenLearnSpace/MUCVR)
+[![Languages](https://img.shields.io/badge/language-zh%2Fen-blue)](https://github.com/MrChenLearnSpace/MUCVR)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+> One-line description: MUCVR is a ... (e.g. a multi-user collaborative VR platform / a multimodal computer vision research repository). Please replace this placeholder with the project's short description.
+
+Table of Contents
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+  - [Environment & Dependencies](#environment--dependencies)
+  - [Installation](#installation)
+  - [Run Example](#run-example)
+- [Project Structure](#project-structure)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [FAQ](#faq)
+- [License](#license)
+- [Authors & Contact](#authors--contact)
+
+## Overview
+Describe the purpose and main capabilities of MUCVR:
+- Problem(s) it solves
+- Intended users (researchers / developers / product teams)
+- Core modules (e.g. real-time multi-user synchronization, low-latency interaction, scene rendering, model inference)
+
+## Key Features
+- Feature 1: short description (e.g. supports N users in the same scene)
+- Feature 2: short description (e.g. built-in multimodal perception modules)
+- Feature 3: short description (e.g. extensible plugin system)
+
+## Demo
+(Place GIFs, images, or demo links here)
+Example:
+![demo](docs/images/demo.gif)
+
+Online demo / video: https://example.com
+
+## Quick Start
+
+### Environment & Dependencies
+- Recommended OS: Ubuntu 20.04 / macOS 12 / Windows 10
+- Python: 3.8+
+- Key dependencies: list main dependencies (e.g. PyTorch, Unity, OpenCV, Docker)
+
+### Installation (from source)
+```bash
+# Clone the repository
+git clone https://github.com/MrChenLearnSpace/MUCVR.git
+cd MUCVR
+
+# Optional: create a virtual environment
+python -m venv .venv
+source .venv/bin/activate  # Linux / macOS
+# .venv\\Scripts\\activate    # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Run Example
+```bash
+# Run local demo (replace with actual project entrypoint)
+python examples/run_demo.py --config configs/default.yaml
+```
+
+## Project Structure (example)
+```
+MUCVR/
+├─ docs/
+├─ src/
+│  ├─ mu_cvr/
+│  └─ utils/
+├─ examples/
+├─ configs/
+├─ requirements.txt
+└─ README.md
+```
+
+## Configuration
+- configs/default.yaml: describes main configuration options (network ports, devices, model paths, etc.)
+- How to adapt configs for local / GPU / multi-node setups
+
+## Contributing
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Commit and push: `git commit -am "Add new feature"`, `git push origin feature/your-feature`
+4. Open a Pull Request and describe your changes and testing steps
+
+Please read CONTRIBUTING.md (if present) and follow project coding style.
+
+## FAQ
+- Q: How to add a new scene?
+  A: Provide a template under docs/ or examples/ and follow the template to add scenes.
+- Q: How to run in multi-machine environment?
+  A: Briefly describe how to configure distributed run or link to reference.
+
+## License
+This project is licensed under the MIT License — see [LICENSE](LICENSE).
+
+## Authors & Contact
+- Maintainer: MrChenLearnSpace
+- Contact: Add email / GitHub Issues / WeChat QR code here
